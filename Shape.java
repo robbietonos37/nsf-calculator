@@ -1,6 +1,6 @@
 public interface Shape {
 
-    void calculateVolume();
+    double calculateVolume();
 
-    void calculateArea();
+    double calculateArea();
 }
