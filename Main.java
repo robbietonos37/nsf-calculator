@@ -22,7 +22,7 @@ public class Main {
             System.exit(0);
         }
 
-        System.out.println("User number is: " + userNumber);
+        System.out.println("Radius of sphere is: " + userNumber + " meters");
         Sphere sphere = new Sphere(userNumber);
         double volume = sphere.calculateVolume();
         System.out.println("The volume of your sphere is " + volume + " meters cubed");
